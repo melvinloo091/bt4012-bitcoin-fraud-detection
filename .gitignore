@@ -1,0 +1,19 @@
+# Original competition data stays local
+Data Set/
+# Python environment and generated outputs
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.jupyter-runtime/
+.jupyter-config/
+.ipython/
+.cache/
+submissions/
+models/
+# Credentials and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
