@@ -1,0 +1,36 @@
+{
+  "bare_script_reproduction": {
+    "recent7": {
+      "maximum_probability_error": 2.980232241545089e-08,
+      "mean_probability_error": 3.713163859584615e-11,
+      "rows_with_any_numeric_difference": 119,
+      "rows_with_difference_over_1e_12": 119,
+      "numeric_predictions_exact": false,
+      "csv_byte_identical": false,
+      "spearman_rank_correlation": 0.9999999999999998,
+      "reproduced_within_1e_7": true,
+      "original_sha256": "37311b1b220ba9f5bf327fc3c9c206d62ec5ac5929620840b20dd621b2b43243",
+      "fresh_sha256": "7ae9f52bdd4be7e0c7230d6d16f666c810783f2c17cccbc2d2155ddd6b36a9b0"
+    },
+    "local_features": {
+      "maximum_probability_error": 5.960464488641293e-08,
+      "mean_probability_error": 2.3717751684105294e-10,
+      "rows_with_any_numeric_difference": 516,
+      "rows_with_difference_over_1e_12": 516,
+      "numeric_predictions_exact": false,
+      "csv_byte_identical": false,
+      "spearman_rank_correlation": 1.0,
+      "reproduced_within_1e_7": true,
+      "original_sha256": "5cdaaa5616cf6439c399955eb569570948ed896bea5979f26a3a4b45a1cdf497",
+      "fresh_sha256": "f659b1d146b3eed7e31e08986443d1524c720589be84002d32c0fd0dff820651"
+    }
+  },
+  "all_auc_values_independently_recalculated": true,
+  "all_group_means_independently_recalculated": true,
+  "maximum_auc_roundtrip_error": 1.1102230246251565e-16,
+  "all_checking_ids_labels_and_time_steps_match": true,
+  "original_sources_unchanged": true,
+  "kaggle_upload": false,
+  "hidden_test_answers_used": false,
+  "new_candidate_public_scores": null
+}

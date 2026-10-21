@@ -1,0 +1,13 @@
+{
+  "mode": "reused_verified_reference",
+  "source_receipt": "67a3fba554cad9a0ddfc9ea58f71f66fe79ccb03e526060b35d2ad1d2441102f.json",
+  "source_receipt_sha256": "24850cee0156006674e4c232c0eeb0ad3547e9a17ad3d4899abdc1af0729de97",
+  "source_npz": "67a3fba554cad9a0ddfc9ea58f71f66fe79ccb03e526060b35d2ad1d2441102f.npz",
+  "source_npz_sha256": "dcb35c4372aa1dd93717a5ea8592bb52baf82489b840173268dcf5152dff8102",
+  "component_key": "fe160e2e9970427d8351d2852d75f12057aa69b9a19bb78c80f3f25fa6f550d1",
+  "kind": "lgb",
+  "leaves": null,
+  "cutoff": 20,
+  "is_final": false,
+  "npz_sha256": "dcb35c4372aa1dd93717a5ea8592bb52baf82489b840173268dcf5152dff8102"
+}

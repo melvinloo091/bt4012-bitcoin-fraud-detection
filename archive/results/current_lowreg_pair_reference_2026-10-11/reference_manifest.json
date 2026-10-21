@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-11",
+  "reference_iteration": "Claude Section 28 low-regularisation XGBoost/LightGBM pair",
+  "reported_public_auc": 0.94701,
+  "score_source": "six completed Kaggle public scores visibly supplied in student screenshot",
+  "previous_recorded_public_auc": 0.94265,
+  "approximate_gain": 0.00436,
+  "source_files": {
+    "section27_lowreg_cells.ipynb": {
+      "source": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/section27_lowreg_cells.ipynb",
+      "sha256": "9a3864edf8f5c450b51918554312b7ebfbcaa0804f5009e5d5371ae9c9203a8e"
+    },
+    "section28_lowreg_pair_cells.ipynb": {
+      "source": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/section28_lowreg_pair_cells.ipynb",
+      "sha256": "5491ced88119d6ddf7b23601ae0fe232116cc5bf841fa0ed000b5cb49a1f1132"
+    },
+    "submission_xgboost_lightgbm_lowreg.csv": {
+      "source": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_xgboost_lightgbm_lowreg.csv",
+      "sha256": "843f47f21a1719cf74a6e55fa3c8c83039126e3b874e98d8ecea7dc5268ef107"
+    },
+    "submission_xgboost_tuned_reference.csv": {
+      "source": "/Users/mlvlo/BT4012/Kaggle/chatgpt submissions/submission_xgboost_tuned.csv",
+      "sha256": "0cdd45aa56999392b2542231412339a866a67b7bc193fa571325720c30e8ae7f"
+    },
+    "reported_pair_validation.csv": {
+      "source": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/xgboost_lightgbm_lowreg_validation.csv",
+      "sha256": "e395d8400703f08120dd961f207a23e53643e3d88a97ed15eb465dec87b119bb"
+    },
+    "reproduced_validation.csv": {
+      "source": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_lowreg_pair_review/reproduced_validation.csv",
+      "sha256": "79ae122c9a98b49d934f18fafe8b3e8045fd51079964152dc2ae4541c3fdfc86"
+    },
+    "validation_probabilities.npz": {
+      "source": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_lowreg_pair_review/validation_probabilities.npz",
+      "sha256": "a26a7d3ff858cb17e78adc8495004aab666f347ba95ab83e01ef97ae6aca4a2f"
+    },
+    "copied_function_definitions.py": {
+      "source": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_lowreg_pair_review/copied_function_definitions.py",
+      "sha256": "2a617100871b764ca5fee3b860d74d5e9d18e9ad20312975c34f3e5eee57c1f6"
+    },
+    "review_metadata.json": {
+      "source": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_lowreg_pair_review/review_metadata.json",
+      "sha256": "25c21554f6d4712317d1eab77812b67d217e6ddf60eddfa4dcb8ddd807561d5b"
+    },
+    "test_probability_audit.npz": {
+      "source": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_lowreg_pair_review/test_probability_audit.npz",
+      "sha256": "77b219c36b7320a2874ee9129041c3deb97e0f069d3e72be41d5dbfe443cb13f"
+    },
+    "existing_component_per_period.csv": {
+      "source": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_lowreg_pair_review/existing_component_per_period.csv",
+      "sha256": "3822ea21dc7a173dd9716051731b8f9bdfe60ec3bb19c39ebc81e76ee8345b18"
+    }
+  },
+  "baseline_directory": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/current_lowreg_pair_reference_2026-10-11",
+  "user_selected_next_action": "study the current ensemble and recommend an improved iteration",
+  "new_training_selected": false,
+  "new_training_started": false,
+  "recommended_next_candidate": "existing 150-tree LightGBM component without averaging",
+  "proposed_bounded_training_comparison": [
+    150,
+    225,
+    300
+  ],
+  "fixed_lgbm_settings": {
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "max_bin": 63,
+    "min_child_samples": 5,
+    "min_child_weight": 0.001,
+    "reg_lambda": 1,
+    "random_state": 42,
+    "n_jobs": 4
+  },
+  "later_lightgbm_wins_vs_pair": 7,
+  "earlier_lightgbm_wins_vs_pair": 0,
+  "kaggle_submission_made_by_codex": false,
+  "candidate_public_auc_unknown": true,
+  "prior_rounded_public_auc": 0.947,
+  "verified_public_auc": 0.94701,
+  "exact_gain_vs_previous_best": 0.00436,
+  "gap_to_0_96": 0.01299,
+  "all_completed_public_submissions": [
+    {
+      "filename": "submission_xgboost_lightgbm_lowreg.csv",
+      "model": "Low-regularisation XGBoost + LightGBM",
+      "public_auc": 0.94701
+    },
+    {
+      "filename": "submission_xgboost_tuned.csv",
+      "model": "Original tuned XGBoost",
+      "public_auc": 0.94265
+    },
+    {
+      "filename": "submission_hist_bin_ensemble.csv",
+      "model": "Histogram boosting bin ensemble",
+      "public_auc": 0.94199
+    },
+    {
+      "filename": "submission_hist_gradient_boosting.csv",
+      "model": "Original histogram gradient boosting",
+      "public_auc": 0.93654
+    },
+    {
+      "filename": "submission_extra_trees.csv",
+      "model": "Extra Trees",
+      "public_auc": 0.91673
+    },
+    {
+      "filename": "submission_xgboost_lookalike_blend.csv",
+      "model": "XGBoost + look-alike blend",
+      "public_auc": 0.87805
+    }
+  ],
+  "score_screenshot_sha256": "9c7910e8819cac2ddfb7b9178f0e427278bfe838f36a53749c89a5bf8e2b7930"
+}

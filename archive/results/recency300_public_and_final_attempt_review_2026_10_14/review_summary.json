@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-14",
+  "observed_public_score": 0.95307,
+  "current_verified_public_best": 0.95484,
+  "public_delta_vs_best": -0.00177,
+  "public_delta_vs_leaf7": -0.00061,
+  "submitted_filename": "submission_lowreg_pair_recent345_avg_xgb300.csv",
+  "score_evidence": "Student-supplied Kaggle screenshot",
+  "prepared_xgb500_public_score": null,
+  "basic_file_audits": {
+    "submitted_average": {
+      "path": "/Users/mlvlo/BT4012/Kaggle/submissions/submission_lowreg_pair_recent345_avg_xgb300.csv",
+      "sha256": "a6543db4e54844ca88e1ce0ffbc5f01a1d3bc4e9a4a99fc7e6a3af77eea1b49a",
+      "rows": 15329,
+      "columns": [
+        "index",
+        "target"
+      ],
+      "exact_sample_index_alignment": true,
+      "unique_indices": true,
+      "finite_probabilities_in_range": true,
+      "rank_correlation_vs_best": 0.9942696455480167,
+      "top1000_overlap_vs_best": 960,
+      "mean_absolute_probability_difference": 0.0014065087893104246,
+      "generation_code_located": false,
+      "model_reproduction_performed": false
+    },
+    "prepared_xgb500": {
+      "path": "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/submissions/submission_lowreg_pair_recent4_xgb500.csv",
+      "sha256": "2ea19d8cdff20b57d4ea07da4e867570d1e7b6ece42f9168eca541e00d218672",
+      "rows": 15329,
+      "columns": [
+        "index",
+        "target"
+      ],
+      "exact_sample_index_alignment": true,
+      "unique_indices": true,
+      "finite_probabilities_in_range": true,
+      "rank_correlation_vs_best": 0.9990433453953402,
+      "top1000_overlap_vs_best": 982,
+      "mean_absolute_probability_difference": 0.0013796030834011287,
+      "generation_code_located": false,
+      "model_reproduction_performed": false
+    }
+  },
+  "source_generation_code_missing": true,
+  "recorded_table_summary": [
+    {
+      "group": "original_15",
+      "column": "xgb200",
+      "checks": 15,
+      "mean_auc": 0.9498652674272728,
+      "mean_delta_vs_table_xgb300": -0.0008387906037232421,
+      "wins_vs_table_xgb300": 4,
+      "worst_auc": 0.8867153685460053
+    },
+    {
+      "group": "original_15",
+      "column": "xgb300",
+      "checks": 15,
+      "mean_auc": 0.9507040580309961,
+      "mean_delta_vs_table_xgb300": 0.0,
+      "wins_vs_table_xgb300": 0,
+      "worst_auc": 0.8885392445727212
+    },
+    {
+      "group": "original_15",
+      "column": "xgb400",
+      "checks": 15,
+      "mean_auc": 0.9509784611008689,
+      "mean_delta_vs_table_xgb300": 0.0002744030698728528,
+      "wins_vs_table_xgb300": 10,
+      "worst_auc": 0.8896707385040763
+    },
+    {
+      "group": "original_15",
+      "column": "xgb500",
+      "checks": 15,
+      "mean_auc": 0.9511676399411344,
+      "mean_delta_vs_table_xgb300": 0.0004635819101383554,
+      "wins_vs_table_xgb300": 10,
+      "worst_auc": 0.890261977575328
+    },
+    {
+      "group": "later_seven",
+      "column": "xgb200",
+      "checks": 7,
+      "mean_auc": 0.9148939558398926,
+      "mean_delta_vs_table_xgb300": -0.0018913043310296068,
+      "wins_vs_table_xgb300": 1,
+      "worst_auc": 0.8867153685460053
+    },
+    {
+      "group": "later_seven",
+      "column": "xgb300",
+      "checks": 7,
+      "mean_auc": 0.9167852601709223,
+      "mean_delta_vs_table_xgb300": 0.0,
+      "wins_vs_table_xgb300": 0,
+      "worst_auc": 0.8885392445727212
+    },
+    {
+      "group": "later_seven",
+      "column": "xgb400",
+      "checks": 7,
+      "mean_auc": 0.9175017720624895,
+      "mean_delta_vs_table_xgb300": 0.0007165118915673428,
+      "wins_vs_table_xgb300": 6,
+      "worst_auc": 0.8896707385040763
+    },
+    {
+      "group": "later_seven",
+      "column": "xgb500",
+      "checks": 7,
+      "mean_auc": 0.9179868925978324,
+      "mean_delta_vs_table_xgb300": 0.0012016324269102136,
+      "wins_vs_table_xgb300": 6,
+      "worst_auc": 0.890261977575328
+    }
+  ],
+  "table_control_protocol_matches_verified_checks": false,
+  "largest_absolute_control_auc_difference": 0.0025739557405760616,
+  "latest_check_recorded_gain_500_vs_300": 7.848065094218093e-05,
+  "README_declares_xgb_trees": 300,
+  "protected_final_notebook_uses_xgb_trees": 200,
+  "final_notebook_sha256": "5a4428fda7a0aabc772256eb693ad4077f32d627d01e9d5a382f44b331f2b528",
+  "journal_before_sha256": "76a5083aa331d94a2de22c167a2141ddd73223ed580cba4b7252f35894c5f9b0",
+  "no_model_fitting": true,
+  "no_new_candidate": true,
+  "codex_kaggle_upload": false,
+  "final_selection": "student decision",
+  "next_experiment": "not selected"
+}

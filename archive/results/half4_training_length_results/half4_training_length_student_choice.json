@@ -1,0 +1,9 @@
+{
+  "student_choice_verbatim": "Test both shorter-training variants (Recommended)",
+  "chosen_date_singapore": "2026-10-13",
+  "scope": "200/150 reference; 200/100 and 100/100; half-life 4; declared 18 checks; nested time-feature filter",
+  "proposed_source_sha256": "4948a684cd0e03d0aba64881dec551a29b1863dfe6d3298680bfacee70a365c3",
+  "original_prepared_notebook_preserved": true,
+  "training_notebook": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/e1156285_half4_training_length.ipynb",
+  "kaggle_upload": false
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "complete",
+  "checks": 18,
+  "elapsed_seconds": 36.182760875002714,
+  "fresh_component_fits": 38,
+  "reused_reference_components": 38,
+  "submission_hashes": {
+    "reference_leaf15": "7fd1ccf24d89a1ff1be9d21a273f787e1a40f6413d98a324fd92ba8767d95163",
+    "xgb_leaf7": "404397a21bde93cfbed9d1505e37592137f9b35b708f2df9f9770742b4a801d3",
+    "xgb_leaf31": "b5ad686643f7a43b4563ab0790656f65b679e3010e084a48fbfd1b95d04ef336"
+  },
+  "final_selection": "student decision",
+  "codex_kaggle_upload": false
+}

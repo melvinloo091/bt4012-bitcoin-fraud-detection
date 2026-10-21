@@ -1,0 +1,69 @@
+{
+  "review_date": "2026-10-21",
+  "latest_student_reported_public_best": 0.95524,
+  "final_notebook_sha256": "a46cb04a6558736dd11132f9fbb855e0c936ca87a8ee86f9f37fcc6f48b1a4dc",
+  "final_notebook_changed_since_previous_review": true,
+  "current_default_recipe": {
+    "xgb_trees": 300,
+    "lgb_trees": 150,
+    "half_life": 4,
+    "xgb_extra": "network",
+    "network_features": 9,
+    "equal_probability_blend": true
+  },
+  "code_parses": true,
+  "saved_errors": [],
+  "stored_run_seconds": 626,
+  "stored_notebook_reference_max_gap": 1.1e-16,
+  "stored_output_is_not_independent_local_reproduction": true,
+  "locally_generated_final_csvs_present": {
+    "e1156285_submission.csv": false,
+    "e1156285_submission_hl345_avg.csv": false
+  },
+  "candidate_audits": {
+    "submission_labnb_xgb.csv": {
+      "path": "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/submissions/submission_labnb_xgb.csv",
+      "sha256": "ac475d388d6351a2afe2d260692c20a9a6532a260a3f182f29225e93061c527b",
+      "basic_checks_passed": true,
+      "rows": 15329,
+      "rank_correlation_vs_graphshape": 0.9986250017625719,
+      "public_score": null,
+      "independently_reproduced": false
+    },
+    "submission_graphshape22_xgb.csv": {
+      "path": "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/submissions/submission_graphshape22_xgb.csv",
+      "sha256": "f74a6ff30544c7668d1ebf6fe2ea7e506cb3f929e7d3f7f1ec4ecf135b02ce64",
+      "basic_checks_passed": true,
+      "rows": 15329,
+      "rank_correlation_vs_graphshape": 0.9989606401147273,
+      "public_score": null,
+      "independently_reproduced": false
+    },
+    "submission_graphshape_hl345_avg.csv": {
+      "path": "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/submissions/submission_graphshape_hl345_avg.csv",
+      "sha256": "45c206e94a1c8d835df9f3805badfb130690bbf84528d9a36095f85e8bbfb469",
+      "basic_checks_passed": true,
+      "rows": 15329,
+      "rank_correlation_vs_graphshape": 0.9943240096280446,
+      "public_score": null,
+      "independently_reproduced": false
+    }
+  },
+  "missing_nodes_label_status_not_proven_by_partner_periods": true,
+  "no_model_fitting": true,
+  "no_new_predictions": true,
+  "no_kaggle_upload": true,
+  "no_final_notebook_edit": true,
+  "source_hashes": {
+    "/Users/mlvlo/BT4012/Kaggle/e1156285.ipynb": "a46cb04a6558736dd11132f9fbb855e0c936ca87a8ee86f9f37fcc6f48b1a4dc",
+    "/Users/mlvlo/BT4012/Kaggle/README.md": "bb85f450644feecadc5bec63cefc9d19e49849764c3b87780dab6901ab255b09",
+    "/Users/mlvlo/BT4012/Kaggle/requirements.txt": "6f695cbaa5b7eb735806fad6127ffb8eca2d30978bff56bca256d09c0f84e93f",
+    "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/2026_10_20/make_20oct_candidates.py": "df42bef33f3b1fa340cdb59b75f00f6e65fadd24687b146f9e2898bf9edf8c7e",
+    "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/2026_10_20/labelled_neighbour_exam_results.txt": "6fc413188f5b69bedcaaebb89f49331bc61aa2350f436dde632f072d949fb86e",
+    "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/2026_10_20/scripts/run_lab.py": "731242956a87f546dea227cca5487ca15002f5483ab06b3926d4a8b574f39431",
+    "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/2026_10_20/scripts/lfeat.py": "ab4e3e3368b767ec17da284073b6834f04837f579c35b018df1275f7f09cd395",
+    "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/2026_10_20/scripts/common.py": "fe8bf3018642d37eee01f9dbc565af7f2204b14daf77eb8eabe7eb8683f197cc",
+    "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/2026_10_20/scripts/safety.py": "b9af990877034c5f7373f24a50ebed17b8a37e1f3814746cb98afacff2176a1f",
+    "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_experiments/2026_10_20/scripts/evallab.py": "6cfa0eb759ea22b663f38ec291d138c01200d47af9476b43a335cd402898013e"
+  }
+}

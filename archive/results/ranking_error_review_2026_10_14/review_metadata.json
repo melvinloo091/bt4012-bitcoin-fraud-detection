@@ -1,0 +1,21 @@
+{
+  "current_verified_public_best": 0.95484,
+  "last_leaf7_public_score": 0.95368,
+  "target": 0.97,
+  "required_auc_gain": 0.015159999999999951,
+  "public_pair_loss": 0.04515999999999998,
+  "target_pair_loss": 0.030000000000000027,
+  "required_relative_reduction_in_public_pair_loss": 0.33569530558015853,
+  "original_folds": 15,
+  "total_folds": 18,
+  "unique_positive_transactions_in_checks": 3453,
+  "analysis_no_model_fitting": true,
+  "new_candidate_generated": false,
+  "hidden_public_labels_available": false,
+  "external_data": false,
+  "codex_kaggle_upload": false,
+  "final_notebook_sha256": "5a4428fda7a0aabc772256eb693ad4077f32d627d01e9d5a382f44b331f2b528",
+  "journal_before_sha256": "f86af7640d5428ffbe47a198e4c4a4469ee5f19493983e4c7163f08baba526f5",
+  "existing_verification_sha256": "15f51a800ffe9ac84bc11ff88adfe538a24a1f6e4121cf8019184b14a156d01b",
+  "existing_reference_csv_sha256": "7fd1ccf24d89a1ff1be9d21a273f787e1a40f6413d98a324fd92ba8767d95163"
+}

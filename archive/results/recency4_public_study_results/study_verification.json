@@ -1,0 +1,70 @@
+{
+  "verified_public_best": 0.95471,
+  "gain_vs_half7": 0.00482,
+  "gain_vs_unweighted": 0.0077,
+  "gap_to_096": 0.00529,
+  "current_best_csv_sha256": "9a011de2931c31e4d641471f9e673f8a553e9cfafeeff7a0cecca8126fc2b2da",
+  "champion_reproduction_max_error": 5.960464477539063e-08,
+  "champion_reproduction_exact": false,
+  "champion_reproduction_csv_byte_identical": false,
+  "champion_reproduction_within_1e_7": true,
+  "winner_only_refitted_for_reproduction": true,
+  "new_candidate_settings_fitted": false,
+  "test_time_steps": [
+    36,
+    49
+  ],
+  "local_check_fitting_cutoffs": [
+    7,
+    21
+  ],
+  "unweighted_last7_fitting_share": 0.1929886345445814,
+  "unweighted_illicit_share": 0.1166639987193853,
+  "weighted_illicit_share_half4": 0.1600797493898479,
+  "candidate_reviews": [
+    {
+      "half_life": 5,
+      "file": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent5.csv",
+      "sha256": "78d667853450de85c2fbbdb6e909a14b08d6e43c93a99269f9cf1df9c8138439",
+      "rows": 15329,
+      "schema_indices_range_passed": true,
+      "rank_correlation_vs_half4": 0.9856501963912381,
+      "generation_source_reviewed": true,
+      "full_regeneration_performed_in_this_review": false,
+      "public_auc": null
+    },
+    {
+      "half_life": 3,
+      "file": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent3.csv",
+      "sha256": "ae15962f184050fe9e2a7bcc6059dd5ca0bfcdce794e3ea2147d68d3d5896f54",
+      "rows": 15329,
+      "schema_indices_range_passed": true,
+      "rank_correlation_vs_half4": 0.970357652854621,
+      "generation_source_reviewed": true,
+      "full_regeneration_performed_in_this_review": false,
+      "public_auc": null
+    },
+    {
+      "half_life": 2,
+      "file": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent2.csv",
+      "sha256": "2c3b6130c5cc2a8820addd01f1689fff9b318cf5e32b20fe86238dc49369971f",
+      "rows": 15329,
+      "schema_indices_range_passed": true,
+      "rank_correlation_vs_half4": 0.91952632084413,
+      "generation_source_reviewed": true,
+      "full_regeneration_performed_in_this_review": false,
+      "public_auc": null
+    }
+  ],
+  "kaggle_upload": false,
+  "final_assessment_selection": "pending student decision",
+  "proposed_next_day_plan": "Half-life 3 first; if higher than 4 then compare 2, otherwise compare 5; reserve third until review.",
+  "next_day_plan_status": "AI recommendation only; no scheduled run or submission",
+  "unsupported_claims": [
+    "Continued monotonic improvement is not established.",
+    "A historical event explanation is not established by these scores or used as evidence.",
+    "Public score is not an independent private or future evaluation.",
+    "Two adjacent half-lives do not guarantee a hedge.",
+    "Ranking-agreement checks are label-free comparisons, not accuracy guarantees."
+  ]
+}

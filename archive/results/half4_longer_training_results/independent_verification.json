@@ -1,0 +1,47 @@
+{
+  "every_auc_independently_recalculated": true,
+  "every_group_summary_verified": true,
+  "per_period_auc_verified": true,
+  "fitting_and_checking_ids_disjoint": true,
+  "feature_filter_nested_in_each_fitting_window": true,
+  "all_submission_formulas_and_indices_verified": true,
+  "all_final_models_reloaded_in_fresh_interpreter": true,
+  "original_half4_probability_max_error": 5.960464488641293e-08,
+  "original_data_hashes_unchanged": true,
+  "saved_component_predictions": 76,
+  "fresh_component_fits": 38,
+  "reused_reference_components": 38,
+  "chronological_checks": 18,
+  "candidate_public_auc": null,
+  "kaggle_upload": false,
+  "final_model_selection": "student decision",
+  "diagnostics": {
+    "reference_200_150": {
+      "csv_sha256": "d4096d02088991d0fb75f0a0e3886a4f06a69cde643c925ba7209e9dc9e28f31",
+      "rank_correlation_vs_public_reference": 0.9999999999966684,
+      "top1000_overlap_vs_public_reference": 1000,
+      "mean_absolute_probability_difference": 7.324823155099268e-11
+    },
+    "long_xgb_300_150": {
+      "csv_sha256": "7fd1ccf24d89a1ff1be9d21a273f787e1a40f6413d98a324fd92ba8767d95163",
+      "rank_correlation_vs_public_reference": 0.9979164492262488,
+      "top1000_overlap_vs_public_reference": 976,
+      "mean_absolute_probability_difference": 0.001695728183170638
+    },
+    "long_lgb_200_225": {
+      "csv_sha256": "e709f3c34a63390b7f9d9376d41893d72398566c1cbfd399e545f05df4c53cd8",
+      "rank_correlation_vs_public_reference": 0.9916725691602191,
+      "top1000_overlap_vs_public_reference": 980,
+      "mean_absolute_probability_difference": 0.0019428383799401424
+    }
+  },
+  "actual_final_tree_counts": {
+    "xgb_200_half4.json": 200,
+    "xgb_300_half4.json": 300,
+    "lgb_150_half4.txt": 150,
+    "lgb_225_half4.txt": 225
+  },
+  "checking_row_appearances": 181071,
+  "unique_checking_transactions": 21682,
+  "reused_reference_receipts_probabilities_models_and_scores_exactly_verified": true
+}

@@ -1,0 +1,169 @@
+{
+  "version": "fixed-half4-training-length-v1",
+  "student_choice": "both",
+  "recipes": {
+    "reference_200_150": [
+      200,
+      150
+    ],
+    "long_xgb_300_150": [
+      300,
+      150
+    ],
+    "long_lgb_200_225": [
+      200,
+      225
+    ]
+  },
+  "folds": [
+    [
+      7,
+      8,
+      21,
+      "original_14_period"
+    ],
+    [
+      8,
+      9,
+      22,
+      "original_14_period"
+    ],
+    [
+      9,
+      10,
+      23,
+      "original_14_period"
+    ],
+    [
+      10,
+      11,
+      24,
+      "original_14_period"
+    ],
+    [
+      11,
+      12,
+      25,
+      "original_14_period"
+    ],
+    [
+      12,
+      13,
+      26,
+      "original_14_period"
+    ],
+    [
+      13,
+      14,
+      27,
+      "original_14_period"
+    ],
+    [
+      14,
+      15,
+      28,
+      "original_14_period"
+    ],
+    [
+      15,
+      16,
+      29,
+      "original_14_period"
+    ],
+    [
+      16,
+      17,
+      30,
+      "original_14_period"
+    ],
+    [
+      17,
+      18,
+      31,
+      "original_14_period"
+    ],
+    [
+      18,
+      19,
+      32,
+      "original_14_period"
+    ],
+    [
+      19,
+      20,
+      33,
+      "original_14_period"
+    ],
+    [
+      20,
+      21,
+      34,
+      "original_14_period"
+    ],
+    [
+      21,
+      22,
+      35,
+      "original_14_period"
+    ],
+    [
+      24,
+      25,
+      35,
+      "later_cutoff"
+    ],
+    [
+      28,
+      29,
+      35,
+      "later_cutoff"
+    ],
+    [
+      31,
+      32,
+      35,
+      "later_cutoff"
+    ]
+  ],
+  "xgboost": {
+    "learning_rate": 0.05,
+    "tree_method": "hist",
+    "grow_policy": "lossguide",
+    "max_depth": 0,
+    "max_leaves": 15,
+    "max_bin": 127,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "objective": "binary:logistic",
+    "n_jobs": 2,
+    "random_state": 42
+  },
+  "lightgbm": {
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "max_bin": 63,
+    "min_child_samples": 5,
+    "min_child_weight": 0.001,
+    "reg_lambda": 1,
+    "objective": "binary",
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1,
+    "n_jobs": 2,
+    "random_state": 42
+  },
+  "half_life": 4,
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "data_hashes": {
+    "Train Data.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "Test Data.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "Sample Submission/BT4012 Competition Submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e"
+  },
+  "automatic_selection": false,
+  "external_data": false,
+  "kaggle_upload": false,
+  "feature_selection": "Known fitting rows through cutoff minus three; abs Spearman > .9 removed."
+}

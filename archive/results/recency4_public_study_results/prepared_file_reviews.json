@@ -1,0 +1,35 @@
+[
+  {
+    "half_life": 5,
+    "file": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent5.csv",
+    "sha256": "78d667853450de85c2fbbdb6e909a14b08d6e43c93a99269f9cf1df9c8138439",
+    "rows": 15329,
+    "schema_indices_range_passed": true,
+    "rank_correlation_vs_half4": 0.9856501963912381,
+    "generation_source_reviewed": true,
+    "full_regeneration_performed_in_this_review": false,
+    "public_auc": null
+  },
+  {
+    "half_life": 3,
+    "file": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent3.csv",
+    "sha256": "ae15962f184050fe9e2a7bcc6059dd5ca0bfcdce794e3ea2147d68d3d5896f54",
+    "rows": 15329,
+    "schema_indices_range_passed": true,
+    "rank_correlation_vs_half4": 0.970357652854621,
+    "generation_source_reviewed": true,
+    "full_regeneration_performed_in_this_review": false,
+    "public_auc": null
+  },
+  {
+    "half_life": 2,
+    "file": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent2.csv",
+    "sha256": "2c3b6130c5cc2a8820addd01f1689fff9b318cf5e32b20fe86238dc49369971f",
+    "rows": 15329,
+    "schema_indices_range_passed": true,
+    "rank_correlation_vs_half4": 0.91952632084413,
+    "generation_source_reviewed": true,
+    "full_regeneration_performed_in_this_review": false,
+    "public_auc": null
+  }
+]

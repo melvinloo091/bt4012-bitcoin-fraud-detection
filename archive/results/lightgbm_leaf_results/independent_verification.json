@@ -1,0 +1,14 @@
+{
+  "every_auc_independently_recalculated": true,
+  "checking_ids_labels_counts_verified": true,
+  "all_submissions_verified": true,
+  "fixed_settings_preserved": true,
+  "baseline_validation_exactly_reproduced": true,
+  "baseline_full_test_predictions_exactly_reproduced": true,
+  "max_control_probability_error": 0.0,
+  "max_leaf5_probability_error": 0.0,
+  "saved_models_reload_checked": true,
+  "kaggle_upload": false,
+  "public_auc_new_candidates": null,
+  "final_model_selection": "pending student review"
+}

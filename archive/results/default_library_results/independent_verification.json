@@ -1,0 +1,14 @@
+{
+  "every_auc_independently_recalculated": true,
+  "checking_ids_counts_verified": true,
+  "every_fixed_blend_verified": true,
+  "every_experimental_csv_aligned": true,
+  "default_learning_parameters_unchanged": true,
+  "control_pair_max_probability_error": 0.0,
+  "control_lgbm_max_probability_error": 0.0,
+  "full_reproduced_pair_max_error_vs_actual_submission": 0.000619287775399097,
+  "full_reproduced_pair_mean_error_vs_actual_submission": 4.654922904558537e-08,
+  "public_auc_of_new_candidates": null,
+  "kaggle_upload": false,
+  "final_model_selection": "pending student review"
+}

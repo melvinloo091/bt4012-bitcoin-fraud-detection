@@ -1,0 +1,108 @@
+{
+  "min_child_samples_values": [
+    5,
+    20,
+    50
+  ],
+  "fixed_lightgbm": {
+    "n_estimators": 150,
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "max_bin": 63,
+    "min_child_weight": 0.001,
+    "reg_lambda": 1,
+    "objective": "binary",
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1,
+    "n_jobs": 4,
+    "random_state": 42
+  },
+  "chronological_checks": [
+    [
+      7,
+      8,
+      21
+    ],
+    [
+      8,
+      9,
+      22
+    ],
+    [
+      9,
+      10,
+      23
+    ],
+    [
+      10,
+      11,
+      24
+    ],
+    [
+      11,
+      12,
+      25
+    ],
+    [
+      12,
+      13,
+      26
+    ],
+    [
+      13,
+      14,
+      27
+    ],
+    [
+      14,
+      15,
+      28
+    ],
+    [
+      15,
+      16,
+      29
+    ],
+    [
+      16,
+      17,
+      30
+    ],
+    [
+      17,
+      18,
+      31
+    ],
+    [
+      18,
+      19,
+      32
+    ],
+    [
+      19,
+      20,
+      33
+    ],
+    [
+      20,
+      21,
+      34
+    ],
+    [
+      21,
+      22,
+      35
+    ]
+  ],
+  "selected_four": [
+    14,
+    17,
+    19,
+    21
+  ],
+  "existing_public_auc": 0.94701,
+  "student_decision": "Test minimum leaf sizes of 20 and 50 (Recommended)",
+  "final_selection": "pending student review",
+  "kaggle_upload": false
+}

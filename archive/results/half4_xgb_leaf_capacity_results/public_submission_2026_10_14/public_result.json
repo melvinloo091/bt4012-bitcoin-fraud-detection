@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-14",
+  "evidence_source": "Student-supplied Kaggle screenshot",
+  "submission_filename": "submission_half4_xgb_leaf7_300_150_experimental.csv",
+  "submission_sha256": "404397a21bde93cfbed9d1505e37592137f9b35b708f2df9f9770742b4a801d3",
+  "public_roc_auc": 0.95368,
+  "current_verified_public_best": 0.95484,
+  "delta_vs_current_best": -0.00116,
+  "delta_vs_200_150_reference": -0.00103,
+  "gap_from_best_to_0_96": 0.00516,
+  "gap_from_best_to_0_97": 0.01516,
+  "xgboost_trees": 300,
+  "xgboost_max_leaves": 7,
+  "lightgbm_trees": 150,
+  "half_life": 4,
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "private_roc_auc": null,
+  "model_training_in_this_update": false,
+  "codex_kaggle_upload": false,
+  "final_assessment_selection": "student decision",
+  "next_experiment": "not selected",
+  "local_ordering_reversed_on_public_subset": true,
+  "screenshot_sha256": "3bdaa5d85f87993e62f1ae4c89229b7e1585a24500daa4bdf027e91eab6c093c",
+  "reference_csv_sha256": "7fd1ccf24d89a1ff1be9d21a273f787e1a40f6413d98a324fd92ba8767d95163",
+  "final_notebook_before_sha256": "5a4428fda7a0aabc772256eb693ad4077f32d627d01e9d5a382f44b331f2b528",
+  "journal_before_sha256": "c07087af90a2f9cbe65809c4ea34b578aa063bff414c33dfe5c08330ecbf6e7e",
+  "journal_after_sha256": "f86af7640d5428ffbe47a198e4c4a4469ee5f19493983e4c7163f08baba526f5",
+  "section_added": 46
+}

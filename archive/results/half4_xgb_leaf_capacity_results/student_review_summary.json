@@ -1,0 +1,13 @@
+{
+  "assessment": "The 7-leaf recipe is the stronger new candidate in this fixed comparison. It improves the original-15 and later-seven means, wins 13/15 and 6/7 respectively, and improves the latest fourteen-period and worst original-check scores. It wins 2/3 added later-cutoff checks, losing the shortest final check by a small margin. These results support student review for a future submission, not a claim of a known public or private improvement or a forecast above 0.96/0.97. The 31-leaf variant has lower main means and loses all three added later checks. Preserve the 0.95484 submitted reference; final submission and assessment decisions remain with the student.",
+  "strongest_new_candidate_for_review": "xgb_leaf7",
+  "current_verified_public_best": 0.95484,
+  "candidate_public_auc": null,
+  "original_15_mean": 0.9537538537034148,
+  "later_seven_mean": 0.9217557423000664,
+  "latest_fourteen_period_auc": 0.905042160350848,
+  "later_cutoff_wins": 2,
+  "final_selection": "student decision",
+  "next_experiment": "not selected",
+  "codex_kaggle_upload": false
+}

@@ -1,0 +1,9 @@
+{
+  "student_choice": "four library defaults and fixed 50:50 blends",
+  "highest_all_15_new_variant": "lightgbm_default_blend",
+  "highest_later_seven_new_variant": "lightgbm_default_blend",
+  "highest_latest_new_variant": "hgb_default_blend",
+  "recommendation": "None of these eight variants improves the later-seven mean over the submitted ensemble recipe. This default comparison does not establish a better candidate for the next submission.",
+  "final_model_selection": "pending student review",
+  "kaggle_upload": false
+}

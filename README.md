@@ -1,37 +1,46 @@
-# BT4012 Bitcoin Transaction Fraud Detection
+# BT4012 Kaggle competition: detecting illicit Bitcoin transactions
 
-Individual Kaggle competition project for student E1156285.
+Individual Kaggle competition project for NUS student **e1156285**.
 
-The starter notebook `e1156285.ipynb` loads and checks the supplied files. Modeling, validation, and final submission generation will be added as the project progresses. No model results are claimed yet.
+**Final model:** XGBoost (300 trees) and LightGBM (150 trees) averaged 50/50, both with light regularisation, trained on all labelled transactions with recency weighting (half-life of 4 time steps). XGBoost also receives nine payment-network counts built from the edge list.
+**Public ROC-AUC:** 0.95524 (first submission 0.93654; course baseline about 0.92).
 
-## Run locally
+## What is in this repository
 
-Use Python 3.11. From this project folder:
+| Path | What it is |
+|---|---|
+| `e1156285.ipynb` | Final notebook: data loading and checks, feature preparation (including the network features), validation (15 practice exams), final training and CSV generation. The setting `XGB_EXTRA` in Section 1 picks the feature group XGBoost receives (`"network"` = final model) |
+| `e1156285.pdf` | Report (at most 4 pages) |
+| `requirements.txt` | Library versions used |
+| `submissions/` | CSV files: the notebook writes `e1156285_submission.csv` (identical to the uploaded 0.95524 file `submission_graphshape_xgb.csv`) and the optional second selection `e1156285_submission_hl345_avg.csv`. Not stored in Git |
+| `archive/` | The full record of what was tried: `e1156285_development_log.ipynb` (step-by-step journal), `notebooks/` (individual experiments), `results/` (their scripts, metrics and charts; CSV outputs, raw-data copies and model weights stay local), `requirements-dev.txt` (libraries those notebooks need). These are kept for reference; their file paths were written for the old folder layout, so they are not meant to be re-run from here |
+
+## How to run
+
+Use Python 3.11 or newer. From this folder:
 
 ```sh
-python3.11 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 jupyter lab
 ```
 
-On the configured Mac, double-click `Start Jupyter.command` to open JupyterLab, then open `e1156285.ipynb`.
+On the configured Mac, double-clicking `Start Jupyter.command` opens JupyterLab instead.
 
-Run notebook cells from top to bottom with Shift + Enter. Before submission, restart the kernel and run all cells to verify reproducibility.
+Open `e1156285.ipynb` and choose *Kernel → Restart Kernel and Run All Cells* (about 10 minutes on a laptop, most of it the practice exams). The notebook fixes the random seed and uses 2 CPU threads, so it reproduces the uploaded Kaggle file (to rounding).
 
 ## Data
 
-Download the competition data from Kaggle and place it at these paths relative to the project folder:
+Download the competition data from Kaggle and place it here (the data is not stored in Git):
 
 - `Data Set/Train Data.csv`
 - `Data Set/Test Data.csv`
 - `Data Set/TXS Edgelist.csv`
 - `Data Set/Sample Submission/BT4012 Competition Submission.csv`
 
-The original data is excluded from Git. Unknown labels are missing, not zero. Training periods are 1–35; test periods are 36–49. Use chronological validation and avoid leaking held-out labels into graph features.
+Training covers time steps 1–35 (31,235 labelled transactions, 110,537 unknown); the test set covers steps 36–49 (15,329 transactions). Unknown labels are missing, not zero. Kaggle submissions contain `index,target`.
 
-Kaggle submission files must contain `index,target`. The notebook filename follows the student-number convention. The final report must link to this repository; ensure the teaching team can access it by the deadline.
+## Acknowledgement of AI assistance
 
-## Acknowledgement
-
-OpenAI Codex assisted with repository setup and the starter notebook. Update this statement as the work develops. The student must understand and justify all submitted work.
+I used two AI assistants. OpenAI Codex (via ChatGPT) set up the repository and notebook and wrote and ran the baselines and early experiments. Anthropic's Claude proposed and coded the practice-exam evaluation and the safety check, wrote and ran most later experiments, built the final notebook and drafted the report. I set the goals, chose which candidates to upload, compared the two assistants' results and chose the final submissions. All experiments used the competition data only.

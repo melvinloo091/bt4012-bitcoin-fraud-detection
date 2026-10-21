@@ -1,0 +1,12 @@
+{
+  "phase": "complete",
+  "checks": 18,
+  "elapsed_seconds": 52.28844299999764,
+  "submission_hashes": {
+    "reference_200_150": "d4096d02088991d0fb75f0a0e3886a4f06a69cde643c925ba7209e9dc9e28f31",
+    "short_lgb_200_100": "4e6a17128ecb83e008f9a46ea707ea626631d240022fa4086eb121b7fe4adae1",
+    "short_both_100_100": "ad5b70d16660217a78553dea3edcf3d9c5e394318378c724242d60c50c80ee56"
+  },
+  "final_selection": "student decision",
+  "kaggle_upload": false
+}

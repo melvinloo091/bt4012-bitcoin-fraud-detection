@@ -1,0 +1,21 @@
+{
+  "choice": "both",
+  "verbatim": "Test both 7 and 31 leaves (Recommended)",
+  "selected_xgboost_max_leaves": [
+    7,
+    31
+  ],
+  "control_xgboost_max_leaves": 15,
+  "trees": [
+    300,
+    150
+  ],
+  "half_life": 4,
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "chronological_checks": 18,
+  "automatic_search": false,
+  "codex_kaggle_upload": false
+}

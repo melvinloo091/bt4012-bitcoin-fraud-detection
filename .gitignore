@@ -17,3 +17,16 @@ models/
 !.env.example
 .DS_Store
 *.log
+
+# Tidy-up leftovers and large binary experiment files
+_to_delete/
+*.joblib
+*.npz
+
+# Raw-data copies, model weights and per-transaction outputs stay local
+claude_experiments/_transfer/
+*.csv
+*.pq
+*.parquet
+*.gz
+*.pt

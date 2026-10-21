@@ -1,0 +1,15 @@
+{
+  "fresh_fitting_path_executed": true,
+  "prior_outputs_used_for_fitting": false,
+  "validation_cache_checks": 0,
+  "full_models_reused": 0,
+  "compared_same_fixed_student_choice": true,
+  "maximum_probability_errors": {
+    "validation_probabilities.npz": 0.0,
+    "test_probabilities.npz": 0.0
+  },
+  "final_submission_exactly_reproduced": true,
+  "submission_sha256": "48a04042986609d67374b8797dc385db5cea3ab4dd863cfd916eb0c0128f3bb8",
+  "elapsed_seconds": 30.131,
+  "kaggle_upload": false
+}

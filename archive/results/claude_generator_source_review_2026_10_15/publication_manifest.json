@@ -1,0 +1,36 @@
+{
+  "out": "/private/tmp/bt4012_source_review_20261015_ah4xkfm_",
+  "native": "/Users/mlvlo/BT4012/Kaggle/archive/results/claude_generator_source_review_2026_10_15",
+  "final_notebook_sha256": "5a4428fda7a0aabc772256eb693ad4077f32d627d01e9d5a382f44b331f2b528",
+  "journal_before_sha256": "cf7d6d55e0c72e3726595a913946716d339561725b3d585438ba3bb69f89c37b",
+  "journal_after_sha256": "f8d78223d0073099ec08ca1bcf952c5799b38bce90d7c007abaaf727318326a3",
+  "artifact_hashes": {
+    "development_log_before_section49.ipynb": "cf7d6d55e0c72e3726595a913946716d339561725b3d585438ba3bb69f89c37b",
+    "filter_protocol_comparison.json": "4ee338d7b98c7919f809b6472062b2a77f3eabe227d2e43feb3f5e6199b9068f",
+    "make_shift_candidates.py": "0f300e6c2b71c9aca3d465bff3d09fb741e0b84a1f1460f26deb1c6c6f33b422",
+    "make_similarity_weighting.py": "b56d90f5ac583dc5e761f8444a370d0888d28244e38708749b9f307777314720",
+    "make_tree_count.py": "d2c060642e8695c84401051fb48e958a0b4c797b4f97b6df00f13fceb5a63005",
+    "recorded_validation_summary.csv": "caac9d54cf4cb03921166838c625d1886acf6294c2eb8f1bf5302e5036f1a82e",
+    "review_summary.json": "cb6812c1626832cd009f2f376c4a841ed6dc899636cc707f79c2a5cf23e21589",
+    "shift_candidates_validation.csv": "09f62da98c144f56f72cb0f08b81368366c73565d93d397bf39240349e7a8361",
+    "similarity_weighting_validation.csv": "487a1fb976c9d2dbb5f4ba1e97250f19ef38ca6807dc637c934d48f89b6d85ca",
+    "updated_development_log.ipynb": "f8d78223d0073099ec08ca1bcf952c5799b38bce90d7c007abaaf727318326a3",
+    "xgb_tree_count_validation.csv": "72819da420156e09a96fab43b2e159a2ec4b66abf7a731961599babebb1a4df7"
+  },
+  "source_hashes": {
+    "make_tree_count.py": "d2c060642e8695c84401051fb48e958a0b4c797b4f97b6df00f13fceb5a63005",
+    "make_shift_candidates.py": "0f300e6c2b71c9aca3d465bff3d09fb741e0b84a1f1460f26deb1c6c6f33b422",
+    "make_similarity_weighting.py": "b56d90f5ac583dc5e761f8444a370d0888d28244e38708749b9f307777314720"
+  },
+  "original_csv_hashes": {
+    "submission_lowreg_pair_recent4_xgb500.csv": "2ea19d8cdff20b57d4ea07da4e867570d1e7b6ece42f9168eca541e00d218672",
+    "submission_half4_xgb300_drift_drop.csv": "927c714872c7df3307e2d404b7ee7b536ad4179f7eccb9d76342a900d73f3d00",
+    "submission_half4_xgb300_recent7_blend.csv": "36be943c996aeea40dbdce642797b4da8a143d9db6955a8884e5e419a6af658d",
+    "submission_similarity_weighting.csv": "a65ab2e4dbec1421b57d9d4dd3e741364d6b5a29cdd10fff7eab7d422c4a04a7",
+    "submission_similarity_x_recent8.csv": "8d6770cfe17ce85d1a85bda87db11db399edaf3f13a41917a61dea6daa1ae506"
+  },
+  "publication_complete": true,
+  "no_model_fitting": true,
+  "final_notebook_unchanged": true,
+  "codex_kaggle_upload": false
+}

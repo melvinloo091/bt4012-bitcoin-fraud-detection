@@ -1,0 +1,201 @@
+{
+  "review_time": "2026-10-12T12:33:44.629875+08:00",
+  "scope": "Reproduction and review of two supplied prepared recipes; no new parameter choices.",
+  "source_script": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/make_recency_candidates.py",
+  "protected_source_hashes": {
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/make_recency_candidates.py": "20a2a8622ca03390d1abbd74f4a829dd129c204263936581939db16e2a4f76e0",
+    "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_candidates_review_results/validation_probabilities.npz": "2d5092bbb7b189f37752c1ad21fbb0d03e977d5957c8b8d8b759b596181ec59b",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent7.csv": "37311b1b220ba9f5bf327fc3c9c206d62ec5ac5929620840b20dd621b2b43243",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent4.csv": "9a011de2931c31e4d641471f9e673f8a553e9cfafeeff7a0cecca8126fc2b2da",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_recent7_lgb_leaf5_50.csv": "e6a374dbd9d85b64e328a1daa57f8e14d24ce7315b99bb24b6ace4def8b3f594",
+    "/Users/mlvlo/BT4012/Kaggle/Data Set/Train Data.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "/Users/mlvlo/BT4012/Kaggle/Data Set/Test Data.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "/Users/mlvlo/BT4012/Kaggle/Data Set/Sample Submission/BT4012 Competition Submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e"
+  },
+  "original_sources_unchanged": true,
+  "verified_public_best": 0.94989,
+  "verified_public_improvement": 0.0028799999999999937,
+  "public_score_evidence": "/var/folders/vj/6q4l2jyn58xdb1kn9llb4r6w0000gn/T/codex-clipboard-3631a22b-5daa-40bc-a54d-45547022281d.png",
+  "new_candidate_public_scores": null,
+  "full_reproduction": {
+    "recent4_pair": {
+      "maximum_probability_error": 5.960464477539063e-08,
+      "mean_probability_error": 7.324823155099268e-11,
+      "rows_with_any_numeric_difference": 682,
+      "numeric_predictions_exact": false,
+      "csv_byte_identical": false,
+      "reproduced_within_1e_7": true,
+      "original_sha256": "9a011de2931c31e4d641471f9e673f8a553e9cfafeeff7a0cecca8126fc2b2da",
+      "regenerated_sha256": "d4096d02088991d0fb75f0a0e3886a4f06a69cde643c925ba7209e9dc9e28f31",
+      "spearman_vs_public_recent7": 0.9758516835534911,
+      "original_path": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent4.csv",
+      "regenerated_path": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_recency_followup_isolated_project/claude_experiments/submissions/submission_lowreg_pair_recent4.csv"
+    },
+    "recent7_leaf_blend": {
+      "maximum_probability_error": 1.1102230246251565e-16,
+      "mean_probability_error": 1.357993457611174e-20,
+      "rows_with_any_numeric_difference": 2,
+      "numeric_predictions_exact": false,
+      "csv_byte_identical": false,
+      "reproduced_within_1e_7": true,
+      "original_sha256": "e6a374dbd9d85b64e328a1daa57f8e14d24ce7315b99bb24b6ace4def8b3f594",
+      "regenerated_sha256": "bca5199dcec8b0fff126635e9b295f78d7a9c3a16f417a0cc2f5590153db6648",
+      "spearman_vs_public_recent7": 0.994190079214318,
+      "original_path": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_recent7_lgb_leaf5_50.csv",
+      "regenerated_path": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_recency_followup_isolated_project/claude_experiments/submissions/submission_recent7_lgb_leaf5_50.csv"
+    }
+  },
+  "weight_concentration": [
+    {
+      "cutoff": 7,
+      "half_life": 7,
+      "confirmed_rows": 9553,
+      "effective_weighted_sample_size": 9181.299207453505,
+      "effective_share": 0.961090673867215,
+      "last7_periods_weight_share": 1.0
+    },
+    {
+      "cutoff": 7,
+      "half_life": 4,
+      "confirmed_rows": 9553,
+      "effective_weighted_sample_size": 8489.478209601022,
+      "effective_share": 0.8886714340627051,
+      "last7_periods_weight_share": 1.0
+    },
+    {
+      "cutoff": 21,
+      "half_life": 7,
+      "confirmed_rows": 19530,
+      "effective_weighted_sample_size": 13427.867209346468,
+      "effective_share": 0.6875508043700188,
+      "last7_periods_weight_share": 0.4926709408672364
+    },
+    {
+      "cutoff": 21,
+      "half_life": 4,
+      "confirmed_rows": 19530,
+      "effective_weighted_sample_size": 8260.332736677357,
+      "effective_share": 0.42295610530862043,
+      "last7_periods_weight_share": 0.678833121139982
+    },
+    {
+      "cutoff": 35,
+      "half_life": 7,
+      "confirmed_rows": 31235,
+      "effective_weighted_sample_size": 15107.22928244044,
+      "effective_share": 0.48366349551594173,
+      "last7_periods_weight_share": 0.5537523734721268
+    },
+    {
+      "cutoff": 35,
+      "half_life": 4,
+      "confirmed_rows": 31235,
+      "effective_weighted_sample_size": 8770.193299966146,
+      "effective_share": 0.28078096045993745,
+      "last7_periods_weight_share": 0.7567555288049097
+    }
+  ],
+  "chronological_windows": [
+    [
+      7,
+      8,
+      21
+    ],
+    [
+      8,
+      9,
+      22
+    ],
+    [
+      9,
+      10,
+      23
+    ],
+    [
+      10,
+      11,
+      24
+    ],
+    [
+      11,
+      12,
+      25
+    ],
+    [
+      12,
+      13,
+      26
+    ],
+    [
+      13,
+      14,
+      27
+    ],
+    [
+      14,
+      15,
+      28
+    ],
+    [
+      15,
+      16,
+      29
+    ],
+    [
+      16,
+      17,
+      30
+    ],
+    [
+      17,
+      18,
+      31
+    ],
+    [
+      18,
+      19,
+      32
+    ],
+    [
+      19,
+      20,
+      33
+    ],
+    [
+      20,
+      21,
+      34
+    ],
+    [
+      21,
+      22,
+      35
+    ]
+  ],
+  "known_fitting_rows": 31235,
+  "unknown_rows_used": 0,
+  "test_rows": 15329,
+  "external_data_used": false,
+  "test_labels_used": false,
+  "future_test_features_used_for_fitting": false,
+  "parameter_search": false,
+  "new_feature_recipe": false,
+  "blend_weight_search": false,
+  "kaggle_upload": false,
+  "validation_limitations": [
+    "The fixed six-feature exclusion used by the pair recipes was originally chosen using steps 1-32; selection is not confined to earlier rolling fitting periods.",
+    "The weighted LightGBM blend uses all 165 features and no learned time-feature exclusion.",
+    "All windows overlap and have been reused during development.",
+    "Public-score improvement establishes a result on the public subset; it does not identify the best half-life or ensure a private-score improvement.",
+    "The quoted uncertainty and future-score range are not calibrated by this audit."
+  ],
+  "versions": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0"
+  },
+  "elapsed_seconds": 54.022
+}

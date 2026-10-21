@@ -1,0 +1,9 @@
+{
+  "assessment": "The 300-XGBoost/150-LightGBM recipe has the stronger evidence among these two new candidates. It raises the original-15 and later-seven means and wins all three added later-cutoff checks, but its latest fourteen-period and worst-check scores fall slightly. The gains are small and mixed, and the checks overlap prior development. It is a reasonable experimental candidate for student review, not a demonstrated replacement for the 0.95471 public reference or a calibrated prediction above 0.96. The 225-tree LightGBM alternative has weaker main means. Do not automatically select a final model or combine both new settings.",
+  "strongest_new_candidate": "long_xgb_300_150",
+  "candidate_public_auc": null,
+  "current_verified_public_best": 0.95471,
+  "final_selection": "student decision",
+  "next_experiment": "not selected",
+  "kaggle_upload": false
+}

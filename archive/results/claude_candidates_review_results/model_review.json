@@ -1,0 +1,496 @@
+{
+  "review_time": "2026-10-12T12:11:26.187848+08:00",
+  "scope": "Review and reproduction of supplied fixed recipes; no new candidate settings selected.",
+  "source_script": "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/make_recent7_and_local_features.py",
+  "source_snapshot": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_recent_local_review_2026-10-12/model_review/make_recent7_and_local_features.py",
+  "protected_source_hashes": {
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/make_recent7_and_local_features.py": "641e6a5aeef51afe637af6c65e822a81fca494530cf6ac28740f7528701c5d3c",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_recent7.csv": "37311b1b220ba9f5bf327fc3c9c206d62ec5ac5929620840b20dd621b2b43243",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_lowreg_pair_local_features.csv": "5cdaaa5616cf6439c399955eb569570948ed896bea5979f26a3a4b45a1cdf497",
+    "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/lightgbm_leaf_blend_results/validation_probabilities.npz": "68227badbfadb21b8587afac9ee17772b9952c4f86d54e9926a0379fc6855bfc",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/submissions/submission_xgboost_lightgbm_lowreg.csv": "843f47f21a1719cf74a6e55fa3c8c83039126e3b874e98d8ecea7dc5268ef107",
+    "/Users/mlvlo/BT4012/Kaggle/Data Set/Train Data.csv": "6f7e56883f0aa27147262a0d71954ad64702ca57f16fbf9ed58fae21a66dd706",
+    "/Users/mlvlo/BT4012/Kaggle/Data Set/Test Data.csv": "344e47c8cd8815f4072d7f6ecbecee8919ab648294a8eb4ed032a026c3eb91db",
+    "/Users/mlvlo/BT4012/Kaggle/Data Set/Sample Submission/BT4012 Competition Submission.csv": "3dba74ad6151053aa21f366fb9faf6da7393969a0ba6f8a2ebcec561871f739e",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/original_workspace/run_var.py": "373202dd2719326998ce4cf069fe80c24726b1f3013e169c96b7c67fe33d09dd",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/original_workspace/run_gpt.py": "dd0879a6e6c926dcaf6bfadecbc33d5bfc506ecd4e654ebe70b8091b44235ad3",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/original_workspace/run_probe.py": "89653a14ddd1cbff3e9e3f6d1d633aad923d751d53d172a07ad3d27c6a77186a",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/original_workspace/README.md": "ea6b674946cecec32b352bead2ec5dee2c662f835f1a3d8cb5ac7a281378b49f",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/original_workspace/preupload.py": "a0e7980b33a039d3c144752f01c3f641ffb4df51e686c10bba51783feff3ef8f",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/original_workspace/report2.py": "43f4b401c157a578bae48435058965679cc3923159419453e28e1e024d0b0da5",
+    "/Users/mlvlo/BT4012/Kaggle/claude_experiments/scripts/original_workspace/base.py": "508ae728ecce76b1aef79f6d9225fc0ca9f39e764e8c2df262b09055ff748061"
+  },
+  "original_sources_unchanged": true,
+  "chronological_windows": [
+    [
+      7,
+      8,
+      21
+    ],
+    [
+      8,
+      9,
+      22
+    ],
+    [
+      9,
+      10,
+      23
+    ],
+    [
+      10,
+      11,
+      24
+    ],
+    [
+      11,
+      12,
+      25
+    ],
+    [
+      12,
+      13,
+      26
+    ],
+    [
+      13,
+      14,
+      27
+    ],
+    [
+      14,
+      15,
+      28
+    ],
+    [
+      15,
+      16,
+      29
+    ],
+    [
+      16,
+      17,
+      30
+    ],
+    [
+      17,
+      18,
+      31
+    ],
+    [
+      18,
+      19,
+      32
+    ],
+    [
+      19,
+      20,
+      33
+    ],
+    [
+      20,
+      21,
+      34
+    ],
+    [
+      21,
+      22,
+      35
+    ]
+  ],
+  "known_training_rows": 31235,
+  "unknown_rows_used": 0,
+  "test_rows": 15329,
+  "external_data_used": false,
+  "future_test_rows_used_for_fitting": false,
+  "hyperparameter_search": false,
+  "blend_weight_search": false,
+  "kaggle_upload": false,
+  "existing_public_auc": 0.94701,
+  "new_candidate_public_auc": null,
+  "full_submission_reproduction": {
+    "recent7": {
+      "maximum_probability_error": 2.980232241545089e-08,
+      "mean_probability_error": 3.713163859584615e-11,
+      "numeric_predictions_exact": false,
+      "csv_byte_identical": false,
+      "regenerated_sha256": "7ae9f52bdd4be7e0c7230d6d16f666c810783f2c17cccbc2d2155ddd6b36a9b0",
+      "original_sha256": "37311b1b220ba9f5bf327fc3c9c206d62ec5ac5929620840b20dd621b2b43243",
+      "regenerated_path": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_recent_local_review_2026-10-12/model_review/isolated_project/claude_experiments/submissions/submission_lowreg_pair_recent7.csv"
+    },
+    "local_features": {
+      "maximum_probability_error": 5.960464488641293e-08,
+      "mean_probability_error": 2.3717751684105294e-10,
+      "numeric_predictions_exact": false,
+      "csv_byte_identical": false,
+      "regenerated_sha256": "f659b1d146b3eed7e31e08986443d1524c720589be84002d32c0fd0dff820651",
+      "original_sha256": "5cdaaa5616cf6439c399955eb569570948ed896bea5979f26a3a4b45a1cdf497",
+      "regenerated_path": "/Users/mlvlo/.codex/.chatgpt-projects/g-p-6a901a23216481918fe5444e40decc24/student_model_review/claude_recent_local_review_2026-10-12/model_review/isolated_project/claude_experiments/submissions/submission_lowreg_pair_local_features.csv"
+    }
+  },
+  "recency_weights": {
+    "normalization_mean": 1.0,
+    "minimum": 0.1298051149335551,
+    "maximum": 3.762162058810145,
+    "step35_to_step28_ratio": 2.0,
+    "effective_sample_size_by_weight": 15107.22928244044
+  },
+  "xgboost_parameters": {
+    "objective": "binary:logistic",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": null,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": false,
+    "eval_metric": null,
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": "lossguide",
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": 0.05,
+    "max_bin": 127,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": 0,
+    "max_leaves": 15,
+    "min_child_weight": 1,
+    "missing": NaN,
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 200,
+    "n_jobs": 2,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": null,
+    "reg_lambda": 1,
+    "sampling_method": null,
+    "scale_pos_weight": null,
+    "subsample": null,
+    "tree_method": "hist",
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "lightgbm_parameters": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 1.0,
+    "importance_type": "split",
+    "learning_rate": 0.05,
+    "max_depth": -1,
+    "min_child_samples": 5,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 150,
+    "n_jobs": 2,
+    "num_leaves": 15,
+    "objective": "binary",
+    "random_state": 42,
+    "reg_alpha": 0.0,
+    "reg_lambda": 1,
+    "subsample": 1.0,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 0,
+    "max_bin": 63,
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1
+  },
+  "mask_comparison": [
+    {
+      "cutoff": 7,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 8,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 9,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 10,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 11,
+      "training_only_reference_removed": [
+        "feat_101",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 12,
+      "training_only_reference_removed": [
+        "feat_101",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 13,
+      "training_only_reference_removed": [
+        "feat_101",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 14,
+      "training_only_reference_removed": [
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 15,
+      "training_only_reference_removed": [
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 16,
+      "training_only_reference_removed": [
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 17,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 18,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 19,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 20,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": true
+    },
+    {
+      "cutoff": 21,
+      "training_only_reference_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "fixed_mask_removed": [
+        "feat_100",
+        "feat_101",
+        "feat_103",
+        "feat_136",
+        "feat_137",
+        "feat_139"
+      ],
+      "mask_differs": false
+    }
+  ],
+  "validation_limitations": [
+    "All checking examples follow fitting rows, but the fixed six-feature mask was chosen using steps 1-32, including future rows relative to earlier checks.",
+    "The fixed-mask control isolates recency weighting without correcting that historical selection limitation.",
+    "The local-feature recipe has no learned time-feature exclusion; its fixed prefix was already chosen during development.",
+    "These 15 checking windows overlap and have been reused during model development.",
+    "No hidden test labels or external historical event information is used."
+  ],
+  "versions": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.1",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0"
+  },
+  "elapsed_seconds": 62.487
+}
