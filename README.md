@@ -2,18 +2,18 @@
 
 Individual Kaggle competition project for NUS student **e1156285**.
 
-**Final model:** XGBoost (300 trees) and LightGBM (150 trees) averaged 50/50, both with light regularisation, trained on all labelled transactions with recency weighting (half-life of 4 time steps). XGBoost also receives nine payment-network counts built from the edge list.
-**Public ROC-AUC:** 0.95524 (first submission 0.93654; course baseline about 0.92).
-**Final selections on Kaggle:** this model (0.95524) and the same model with labelled-neighbour counts instead of network counts (0.95499).
+**Final model:** XGBoost (300 trees) and LightGBM (150 trees) averaged 50/50, both with light regularisation, trained on all labelled transactions with recency weighting (half-life of 4 time steps). XGBoost also receives nine payment-network counts built from the edge list, and is trained with DART boosting (it randomly switches off some earlier trees while learning).
+**Public ROC-AUC:** 0.95527 (first submission 0.93654; course baseline about 0.92).
+**Final selections on Kaggle:** this model (0.95527) and the same model with ordinary XGBoost instead of DART (0.95524).
 
 ## What is in this repository
 
 | Path | What it is |
 |---|---|
-| `e1156285.ipynb` | Final notebook: data loading and checks, feature preparation (including the network features), validation (15 practice exams), final training and CSV generation. The setting `XGB_EXTRA` in Section 1 picks the feature group XGBoost receives (`"network"` = final model) |
+| `e1156285.ipynb` | Final notebook: data loading and checks, feature preparation (including the network features), validation (15 practice exams), final training and CSV generation. Settings in Section 1 choose the version: `FINAL_XGB_DART = True` with `XGB_EXTRA = "network"` is the final model |
 | `e1156285.pdf` | Report (at most 4 pages) |
 | `requirements.txt` | Library versions used |
-| `submissions/` | CSV files written by the notebook: `e1156285_submission.csv` (identical to the uploaded 0.95524 file) and the second final selection `e1156285_submission_labelled.csv` (identical to the uploaded 0.95499 file). Not stored in Git |
+| `submissions/` | CSV files written by the notebook: `e1156285_submission.csv` (identical to the uploaded 0.95527 file) and the second final selection `e1156285_submission_second.csv` (identical to the uploaded 0.95524 file). Not stored in Git |
 | `archive/` | The full record of what was tried: `e1156285_development_log.ipynb` (step-by-step journal), `notebooks/` (individual experiments), `results/` (their scripts, metrics and charts; CSV outputs, raw-data copies and model weights stay local), `requirements-dev.txt` (libraries those notebooks need). These are kept for reference; their file paths were written for the old folder layout, so they are not meant to be re-run from here |
 
 ## How to run
@@ -29,7 +29,7 @@ jupyter lab
 
 On the configured Mac, double-clicking `Start Jupyter.command` opens JupyterLab instead.
 
-Open `e1156285.ipynb` and choose *Kernel → Restart Kernel and Run All Cells* (about 8–10 minutes on a laptop, most of it the practice exams). The notebook fixes the random seed and uses 2 CPU threads, so it reproduces the uploaded Kaggle file (to rounding).
+Open `e1156285.ipynb` and choose *Kernel → Restart Kernel and Run All Cells* (about 15–20 minutes on a laptop, most of it the practice exams and the DART model). The notebook fixes the random seed and uses 2 CPU threads, so it reproduces the uploaded Kaggle file (to rounding).
 
 ## Data
 
