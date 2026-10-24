@@ -14,7 +14,6 @@ Individual Kaggle competition project for NUS student **e1156285**.
 | `e1156285.pdf` | Report (at most 4 pages) |
 | `requirements.txt` | Library versions used |
 | `submissions/` | CSV files written by the notebook: `e1156285_submission.csv` (identical to the uploaded 0.95527 file) and the second final selection `e1156285_submission_second.csv` (identical to the uploaded 0.95524 file). Not stored in Git |
-| `archive/` | The full record of what was tried: `e1156285_development_log.ipynb` (step-by-step journal), `notebooks/` (individual experiments), `results/` (their scripts, metrics and charts; CSV outputs, raw-data copies and model weights stay local), `requirements-dev.txt` (libraries those notebooks need). These are kept for reference; their file paths were written for the old folder layout, so they are not meant to be re-run from here |
 
 ## How to run
 

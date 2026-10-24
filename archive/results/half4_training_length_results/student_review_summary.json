@@ -1,8 +1,0 @@
-{
-  "assessment": "Neither shorter-training variant supports replacing the 0.95471 public reference. Both have lower original-15 and later-seven means and both lose all three later-cutoff checks. The result does not support spending a submission on either new CSV. The fixed current recipe remains the reference; no new settings are selected or fitted automatically.",
-  "current_verified_public_best": 0.95471,
-  "candidate_public_auc": null,
-  "final_selection": "student decision",
-  "next_experiment": "not selected",
-  "kaggle_upload": false
-}

@@ -1,9 +1,0 @@
-{
-  "recommendation": "The equal blend merits review as a compromise candidate: it improves the later-seven mean over leaf 5 and the submitted ensemble recipe, and improves the latest and worst-check scores over leaf 50. Leaf 50 still has the higher all-15, later-seven and four-check means; leaf 5 still has the higher latest-check and worst-check scores. No candidate dominates every criterion. Preserve these tradeoffs when choosing a submission; hidden-score superiority remains unestablished.",
-  "final_selection": "pending student review",
-  "public_auc": null,
-  "all_15_blend_auc": 0.9576201310476176,
-  "later_seven_blend_auc": 0.93020891134561,
-  "latest_blend_auc": 0.9178335410628712,
-  "kaggle_upload": false
-}

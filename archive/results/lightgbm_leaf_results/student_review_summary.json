@@ -1,8 +1,0 @@
-{
-  "best_all_15_min_child_samples": 50,
-  "best_later_seven_min_child_samples": 50,
-  "best_latest_min_child_samples": 5,
-  "recommendation": "The 50-example version merits review as a candidate because it has the highest later-seven mean among the three. The highest all-15 mean occurs at 50 examples, while the latest-check leader is 5. Do not treat the mean improvement as proof of a better Kaggle score; review the latest and worst-check declines before selecting a submission.",
-  "final_selection": "pending student review",
-  "kaggle_upload": false
-}

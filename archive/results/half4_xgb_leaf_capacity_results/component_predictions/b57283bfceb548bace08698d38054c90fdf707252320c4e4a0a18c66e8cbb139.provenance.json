@@ -1,9 +1,0 @@
-{
-  "mode": "fresh_fit",
-  "component_key": "b57283bfceb548bace08698d38054c90fdf707252320c4e4a0a18c66e8cbb139",
-  "kind": "xgb",
-  "leaves": 31,
-  "cutoff": 15,
-  "is_final": false,
-  "npz_sha256": "3a69f473dd8dfb6efd332a80bd57b8afa5aa3338a0182327ad4a1bee288c9e8e"
-}
