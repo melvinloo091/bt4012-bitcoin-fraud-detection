@@ -43,4 +43,4 @@ Training covers time steps 1–35 (31,235 labelled transactions, 110,537 unknown
 
 ## Acknowledgement of AI assistance
 
-I used two AI assistants. OpenAI Codex (via ChatGPT) set up the repository and notebook and wrote and ran the baselines and early experiments. Anthropic's Claude proposed and coded the practice-exam evaluation and the safety check, wrote and ran most later experiments, built the final notebook and drafted the report. I set the goals, chose which candidates to upload, compared the two assistants' results and chose the final submissions. All experiments used the competition data only.
+I used two AI assistants. OpenAI Codex (via ChatGPT) set up the repository and Jupyter notebook and ran the early experiments. Anthropic’s Claude proposed and coded the local tests and safety check, wrote and ran most later experiments, helped built the final notebook and drafted this report. I set the goals, chose which models and candidates to upload, compared the two assistants’ results and chose the final submissions. All experiments used the competition data only.
